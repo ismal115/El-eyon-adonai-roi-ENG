@@ -1,98 +1,95 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <!-- Metatags SEO -->
-    <meta name="description" content="Formulario para empresas aliadas del Ministerio Shemá. Únase a nuestro movimiento de servicio transformador en República Dominicana.">
-    <meta name="keywords" content="alianza empresarial, patrocinio cristiano, RSE República Dominicana, voluntariado corporativo, donaciones empresas">
+    <!-- SEO Metatags -->
+    <meta name="description" content="Form for partner companies of Ministerio Shemá. Join our transformative service movement in the Dominican Republic.">
+    <meta name="keywords" content="business partnership, Christian sponsorship, CSR Dominican Republic, corporate volunteering, company donations">
     <meta name="author" content="Ministerio Shemá - El Eyon Adonai Roi">
     <meta name="robots" content="index, follow">
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://tusitio.com/empresa-form.html">
-    <meta property="og:title" content="Alianzas Empresariales | Ministerio Shemá">
-    <meta property="og:description" content="Forme parte de nuestro movimiento de transformación social como empresa aliada">
+    <meta property="og:title" content="Business Partnerships | Ministerio Shemá">
+    <meta property="og:description" content="Become part of our social transformation movement as a partner company">
     <meta property="og:image" content="https://tusitio.com/img/img-nosotros/EYON-ADONAI-ROI.webp">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/img-index/EYON-ADONAI-ROI.webp">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="empresa-form.css">
-    <title>Empresa aliada - El Eyon Adonai Roi</title>
+    <title>Partner Company - El Eyon Adonai Roi</title>
 </head>
 <body>
 <header>
     <nav>
         <div class="logo">
             <a href="index.html">
-                <img src="img/img-nosotros/EYON-ADONAI-ROI.webp" alt="Logo Eyon Adonai Roi">
+                <img src="img/img-nosotros/EYON-ADONAI-ROI.webp" alt="Eyon Adonai Roi Logo">
             </a>
         </div>
-                <!-- Botón Hamburguesa -->
-        <button class="hamburger" aria-label="Menú">
+        <button class="hamburger" aria-label="Menu">
             <span class="hamburger-box">
                 <span class="hamburger-inner"></span>
             </span>
         </button>
-        
+
         <ul class="nav-links">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="nosotros.html">Acerca de</a></li>
-            <li><a href="eventos.html">Eventos</a></li>
-            <li><a href="como-llegar.html">Cómo llegar</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="nosotros.html">About</a></li>
+            <li><a href="eventos.html">Events</a></li>
+            <li><a href="como-llegar.html">How to get there</a></li>
+            <li><a href="#contacto">Contact</a></li>
         </ul>
     </nav>
 </header>
 
-
-<!-- Sección del Formulario para Empresas Aliadas -->
 <section id="partner-form" class="form-section">
     <div class="back-to-shema">
-    <a href="shema.html" class="back-button">
-        <i class="fas fa-arrow-left"></i> Volver a Shemá
-    </a>
-</div>
+        <a href="shema.html" class="back-button">
+            <i class="fas fa-arrow-left"></i> Back to Shemá
+        </a>
+    </div>
     <div class="container">
-        <h2>Formulario para Empresas Aliadas</h2>
-        <p class="section-subtitle">Complete el siguiente formulario y nos pondremos en contacto para establecer una alianza estratégica</p>
-        
-<form id="partnerForm" class="partner-form" action="https://formsubmit.co/ministerioshemard@gmail.com" method="POST">
-    <!-- Campos ocultos adicionales para FormSubmit -->
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_next" value="http://127.0.0.1:5500/empresa-form.html?company-name=Bqiwdi&company-type=PyME&industry=dqwda&employees=11-50&contact-name=GRUPO+TECNO+PRO&contact-position=qwsa&contact-email=hmmrefrielectric01%40gmail.com&contact-phone=34543254234&support-type=Financiero&support-details=asdwessadad&partnership-expectations=assfz&how-heard=Redes+Sociales&terms-agreement=on">
-    <input type="hidden" name="_template" value="table">
-    
+        <h2>Partner Company Form</h2>
+        <p class="section-subtitle">Fill out the following form and we will contact you to establish a strategic partnership</p>
+
+        <form id="partnerForm" class="partner-form" action="https://formsubmit.co/ministerioshemard@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/empresa-form.html?...">
+            <input type="hidden" name="_template" value="table">
+
             <div class="form-group">
-                <h3><i class="fas fa-building"></i> Información de la Empresa</h3>
+                <h3><i class="fas fa-building"></i> Company Information</h3>
                 <div class="form-grid">
                     <div class="form-field">
-                        <label for="company-name">Nombre de la Empresa*</label>
+                        <label for="company-name">Company Name*</label>
                         <input type="text" id="company-name" name="company-name" required>
                     </div>
-                    
+
                     <div class="form-field">
-                        <label for="company-type">Tipo de Empresa*</label>
+                        <label for="company-type">Company Type*</label>
                         <select id="company-type" name="company-type" required>
-                            <option value="">Seleccione...</option>
-                            <option value="Privada">Privada</option>
-                            <option value="Pública">Pública</option>
-                            <option value="ONG">ONG</option>
-                            <option value="PyME">PyME</option>
+                            <option value="">Select...</option>
+                            <option value="Privada">Private</option>
+                            <option value="Pública">Public</option>
+                            <option value="ONG">NGO</option>
+                            <option value="PyME">SME</option>
                             <option value="Startup">Startup</option>
-                            <option value="Otro">Otro</option>
+                            <option value="Otro">Other</option>
                         </select>
                     </div>
-                    
+
                     <div class="form-field">
-                        <label for="industry">Sector Industrial*</label>
+                        <label for="industry">Industry Sector*</label>
                         <input type="text" id="industry" name="industry" required>
                     </div>
-                    
+
                     <div class="form-field">
-                        <label for="employees">Número de Empleados*</label>
+                        <label for="employees">Number of Employees*</label>
                         <select id="employees" name="employees" required>
-                            <option value="">Seleccione...</option>
+                            <option value="">Select...</option>
                             <option value="1-10">1-10</option>
                             <option value="11-50">11-50</option>
                             <option value="51-200">51-200</option>
@@ -102,116 +99,111 @@
                     </div>
                 </div>
             </div>
-            
-            <!-- Información de Contacto -->
+
             <div class="form-group">
-                <h3><i class="fas fa-user-tie"></i> Información de Contacto</h3>
+                <h3><i class="fas fa-user-tie"></i> Contact Information</h3>
                 <div class="form-grid">
                     <div class="form-field">
-                        <label for="contact-name">Nombre del Contacto*</label>
+                        <label for="contact-name">Contact Name*</label>
                         <input type="text" id="contact-name" name="contact-name" required>
                     </div>
-                    
+
                     <div class="form-field">
-                        <label for="contact-position">Cargo*</label>
+                        <label for="contact-position">Position*</label>
                         <input type="text" id="contact-position" name="contact-position" required>
                     </div>
-                    
+
                     <div class="form-field">
-                        <label for="contact-email">Correo Electrónico*</label>
+                        <label for="contact-email">Email*</label>
                         <input type="email" id="contact-email" name="contact-email" required>
                     </div>
-                    
+
                     <div class="form-field">
-                        <label for="contact-phone">Teléfono*</label>
+                        <label for="contact-phone">Phone*</label>
                         <input type="tel" id="contact-phone" name="contact-phone" required>
                     </div>
                 </div>
             </div>
-            
-            <!-- Tipo de Apoyo -->
+
             <div class="form-group">
-                <h3><i class="fas fa-handshake"></i> Tipo de Apoyo</h3>
+                <h3><i class="fas fa-handshake"></i> Type of Support</h3>
                 <div class="checkbox-grid">
                     <div class="checkbox-field">
                         <input type="checkbox" id="support-financial" name="support-type" value="Financiero">
-                        <label for="support-financial">Apoyo Financiero (Patrocinios)</label>
+                        <label for="support-financial">Financial Support (Sponsorships)</label>
                     </div>
-                    
+
                     <div class="checkbox-field">
                         <input type="checkbox" id="support-products" name="support-type" value="Productos">
-                        <label for="support-products">Donación de Productos/Servicios</label>
+                        <label for="support-products">Product/Service Donations</label>
                     </div>
-                    
+
                     <div class="checkbox-field">
                         <input type="checkbox" id="support-volunteers" name="support-type" value="Voluntarios">
-                        <label for="support-volunteers">Voluntariado Corporativo</label>
+                        <label for="support-volunteers">Corporate Volunteering</label>
                     </div>
-                    
+
                     <div class="checkbox-field">
                         <input type="checkbox" id="support-other" name="support-type" value="Otro">
-                        <label for="support-other">Otro tipo de apoyo</label>
+                        <label for="support-other">Other type of support</label>
                     </div>
                 </div>
-                
+
                 <div class="form-field">
-                    <label for="support-details">Detalles del Apoyo Ofrecido*</label>
+                    <label for="support-details">Details of the Support Offered*</label>
                     <textarea autocomplete="off" id="support-details" name="support-details" rows="4" required></textarea>
                 </div>
             </div>
-            
-            <!-- Información Adicional -->
+
             <div class="form-group">
-                <h3><i class="fas fa-info-circle"></i> Información Adicional</h3>
+                <h3><i class="fas fa-info-circle"></i> Additional Information</h3>
                 <div class="form-field">
-                    <label for="partnership-expectations">¿Qué expectativas tiene de esta alianza con el Ministerio Shemá?*</label>
+                    <label for="partnership-expectations">What are your expectations from this partnership with Ministerio Shemá?*</label>
                     <textarea autocomplete="off" id="partnership-expectations" name="partnership-expectations" rows="4" required></textarea>
                 </div>
-                
+
                 <div class="form-field">
-                    <label for="how-heard">¿Cómo se enteró de nosotros?</label>
+                    <label for="how-heard">How did you hear about us?</label>
                     <select id="how-heard" name="how-heard">
-                        <option value="">Seleccione...</option>
-                        <option value="Redes Sociales">Redes Sociales</option>
-                        <option value="Recomendación">Recomendación</option>
-                        <option value="Evento">Evento</option>
-                        <option value="Búsqueda en Internet">Búsqueda en Internet</option>
-                        <option value="Medios de Comunicación">Medios de Comunicación</option>
-                        <option value="Otro">Otro</option>
+                        <option value="">Select...</option>
+                        <option value="Redes Sociales">Social Media</option>
+                        <option value="Recomendación">Recommendation</option>
+                        <option value="Evento">Event</option>
+                        <option value="Búsqueda en Internet">Internet Search</option>
+                        <option value="Medios de Comunicación">Media</option>
+                        <option value="Otro">Other</option>
                     </select>
                 </div>
             </div>
-            
-            <!-- Términos y Envío -->
+
             <div class="form-footer">
                 <div class="form-field checkbox-field">
                     <input type="checkbox" id="terms-agreement" name="terms-agreement" required>
-                    <label for="terms-agreement">Acepto los <a href="#terms">términos y condiciones</a> y autorizo el tratamiento de mis datos*</label>
+                    <label for="terms-agreement">I accept the <a href="#terms">terms and conditions</a> and authorize the processing of my data*</label>
                 </div>
-                
+
                 <button type="submit" class="join-btn partner-btn">
-                    <i class="fas fa-paper-plane"></i> Enviar Solicitud
+                    <i class="fas fa-paper-plane"></i> Submit Request
                 </button>
             </div>
         </form>
     </div>
 </section>
 
-<!-- Modal para Empresas Aliadas -->
 <div id="partnerModal" class="partner-modal">
     <div class="partner-modal-content">
         <span class="partner-close-modal">&times;</span>
-        
+
         <div class="partner-modal-header">
             <div class="partner-modal-icon">
                 <i class="fas fa-handshake"></i>
             </div>
-            <h3>Solicitud recibida</h3>
+            <h3>Request Received</h3>
         </div>
-        
+
         <div class="partner-modal-body">
-            <p>Gracias por su interés en establecer una alianza con <strong>Ministerio Shemá</strong>. Hemos recibido su solicitud y nuestro equipo de relaciones corporativas se pondrá en contacto con usted en un plazo máximo de 48 horas.</p>
-            
+            <p>Thank you for your interest in partnering with <strong>Ministerio Shemá</strong>. We have received your request and our corporate relations team will contact you within 48 hours.</p>
+
             <div class="partner-modal-details">
                 <div class="detail-item">
                     <i class="fas fa-envelope"></i>
@@ -223,52 +215,48 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="partner-modal-footer">
-            <button id="partnerModalBtn" class="partner-modal-btn">Entendido</button>
+            <button id="partnerModalBtn" class="partner-modal-btn">Got it</button>
         </div>
     </div>
 </div>
 
-<script></script>
-    
- 
-    <footer>
-        <div class="footer-container">
-            <div class="footer-col logo-col">
-                <img src="img/img-nosotros/EYON-ADONAI-ROI.webp" alt="Logo Eyon Adonai Roi" class="footer-logo">
-                <p>Una comunidad de fe comprometida con el servicio y el amor al prójimo.</p>
-                <div class="social-links">
-                <a target="_blank" href="https://www.facebook.com/ministerioseleyon.adonairoi" class="social-circle"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/ministerioseleyon/" class="social-circle"><i class="fab fa-instagram"></i></a>
-                    <a href="
-                    https://wa.link/gavioc" class="social-circle"><i class="fab fa-whatsapp"></i></a>
-                </div>
-            </div>
-            <div class="footer-col">
-                <h3>Menú</h3>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="nosotros.html">Acerca de</a></li>
-                    <li><a href="eventos.html">Eventos</a></li>
-                    <li><a href="como-llegar.html">Cómo llegar</a></li>
-                    <li><a href="index.html#contacto" class="nav-link-contacto">Contacto</a><li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h3>Contacto</h3>
-                <ul class="contact-info">
-                    <li><i style="color:  #c6c659;" class="fas fa-map-marker-alt"></i> Calle Principal #123, Ciudad</li>
-                    <li><i style="color:  #c6c659;" class="fas fa-phone"></i> (123) 456-7890</li>
-                    <li><i style="color:  #c6c659;" class="fas fa-envelope"></i> info@eyonadonairoi.com</li>
-                    <li><i style="color:  #c6c659;" class="fas fa-clock"></i> Domingos 10:00 am / Miércoles 7:00 pm</li>
-                </ul>
-            </div>
-        </div>
-        <div class="copyright">
-            <p>&copy; 2023 Eyon Adonai Roi. Todos los derechos reservados.</p>
-        </div>
+<script src="js/js-nosotros/js-shema/forms/empresa-form.js"></script>
+<script src="js/menu-hamburguesa.js"></script>
 
-    </footer>
-    <script src="js/js-nosotros/js-shema/forms/empresa-form.js"></script>
-    <SCRIpt src="js/menu-hamburguesa.js"></SCRIpt>
+<footer>
+    <div class="footer-container">
+        <div class="footer-col logo-col">
+            <img src="img/img-nosotros/EYON-ADONAI-ROI.webp" alt="Eyon Adonai Roi Logo" class="footer-logo">
+            <p>A faith community committed to service and love for others.</p>
+            <div class="social-links">
+                <a target="_blank" href="https://www.facebook.com/ministerioseleyon.adonairoi" class="social-circle"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/ministerioseleyon/" class="social-circle"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.link/gavioc" class="social-circle"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="footer-col">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="nosotros.html">About</a></li>
+                <li><a href="eventos.html">Events</a></li>
+                <li><a href="como-llegar.html">How to get there</a></li>
+                <li><a href="index.html#contacto" class="nav-link-contacto">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Contact</h3>
+            <ul class="contact-info">
+                <li><i style="color:  #c6c659;" class="fas fa-map-marker-alt"></i> Main Street #123, City</li>
+                <li><i style="color:  #c6c659;" class="fas fa-phone"></i> (123) 456-7890</li>
+                <li><i style="color:  #c6c659;" class="fas fa-envelope"></i> info@eyonadonairoi.com</li>
+                <li><i style="color:  #c6c659;" class="fas fa-clock"></i> Sundays 10:00 am / Wednesdays 7:00 pm</li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2023 Eyon Adonai Roi. All rights reserved.</p>
+    </div>
+</footer>

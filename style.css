@@ -1186,7 +1186,6 @@
     color: var(--light-color);
     transition: all var(--transition-base) !important; /* Asegura que la transición se aplique */
     will-change: transform, box-shadow; /* Optimización para animaciones */
-    
     }
 
     .social-circle:hover {
